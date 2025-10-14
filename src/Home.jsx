@@ -27,7 +27,7 @@ function Home() {
                 <h1 className='text-4xl tracking-wider'>Our Products</h1>
                 <p className='text-lg tracking-widest'>We deliver most trusted Products</p>
             </div>
-            <div className='h-screen flex overflow-x-scroll gap-20 w-[90%] mx-auto scroll-container scroll-smooth snap-x snap-mandatory'>
+            <div className='h-fit flex overflow-x-scroll gap-20 w-[90%] mx-auto scroll-container scroll-smooth snap-x snap-mandatory'>
                 <Card className="w-[280px] h-fit overflow-hidden shadow-2xl hover:shadow-md transition-all duration-300 flex-shrink-0 snap-start">
                     <CardHeader className="p-0">
                         <img
@@ -175,5 +175,6 @@ function Home() {
         </>
     )
 }
+
 
 export default Home
